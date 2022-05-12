@@ -1,0 +1,156 @@
+
+.profile_pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    }
+
+.www{
+     width: 200px;
+     height: 300px;
+   }
+        .www{
+             width: 220px;
+             height: 300px;
+       }
+        .header {
+            border-bottom: 1px solid #f0f0f0;
+            background-color: #f7f7f7;
+            padding: 20px 40px;
+        }
+
+        .header h2 {
+            margin: 0;
+        }
+        .container2 {
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            width: 400px;
+            max-width: 100%;
+        }
+        .form {
+            padding: 30px 40px;
+        }
+
+        .form-control {
+            margin-bottom: 10px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        .form-control label {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        .form-control input {
+            border: 2px solid #f0f0f0;
+            border-radius: 4px;
+            display: block;
+            font-family: inherit;
+            font-size: 14px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .form-control input:focus {
+            outline: 0;
+            border-color: #777;
+        }
+
+        .form-control.success input {
+            border-color: #2ecc71;
+        }
+
+        .form-control.error input {
+            border-color: #e74c3c;
+        }
+
+        .form-control i {
+            visibility: hidden;
+            position: absolute;
+            top: 40px;
+            right: 10px;
+        }
+
+        .form-control.success i.fa-check-circle {
+            color: #2ecc71;
+            visibility: visible;
+        }
+
+        .form-control.error i.fa-exclamation-circle {
+            color: #e74c3c;
+            visibility: visible;
+        }
+
+        .form-control small {
+            color: #e74c3c;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            visibility: hidden;
+        }
+
+        .form-control.error small {
+            visibility: visible;
+        }
+
+        .form button {
+            background-color: #8e44ad;
+            border: 2px solid #8e44ad;
+            border-radius: 4px;
+            color: #fff;
+            display: block;
+            font-family: inherit;
+            font-size: 16px;
+            padding: 10px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+    .posts-content{
+        margin-top:20px;
+    }
+    .ui-w-40 {
+        width: 40px !important;
+        height: auto;
+    }
+    .default-style .ui-bordered {
+        border: 1px solid rgba(24,28,33,0.06);
+    }
+    .ui-bg-cover {
+        background-color: transparent;
+        background-position: center center;
+        background-size: cover;
+    }
+    .ui-rect {
+        padding-top: 50% !important;
+    }
+    .ui-rect, .ui-rect-30, .ui-rect-60, .ui-rect-67, .ui-rect-75 {
+        position: relative !important;
+        display: block !important;
+        padding-top: 100% !important;
+        width: 100% !important;
+    }
+    .d-flex, .d-inline-flex, .media, .media>:not(.media-body), .jumbotron, .card {
+        -ms-flex-negative: 1;
+        flex-shrink: 1;
+    }
+    .bg-dark {
+        background-color: rgba(24,28,33,0.9) !important;
+    }
+    .card-footer, .card hr {
+        border-color: rgba(24,28,33,0.06);
+    }
+    .ui-rect-content {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+    }
+    .default-style .ui-bordered {
+        border: 1px solid rgba(24,28,33,0.06);
+    }

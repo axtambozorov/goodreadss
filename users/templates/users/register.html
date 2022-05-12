@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %} Profile {% endblock %}
+
+{% block content %}
+<div class="container2">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+    <form id="form" class="form" method="post">
+        {% csrf_token %}
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" placeholder="" id="username" name="username">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="firstname">Firstname</label>
+          <input type="text" placeholder="" id="firstname" name="first_name">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="lastname">Lastname</label>
+          <input type="text" placeholder="" id="lastname" name="last_name">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Email</label>
+          <input type="email" placeholder="" id="email" name="email">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Password</label>
+          <input type="password" placeholder="" id="password" name="password">
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+</div>
+
+
+{% endblock %}
